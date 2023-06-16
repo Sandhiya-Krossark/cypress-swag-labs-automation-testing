@@ -1,13 +1,12 @@
 import { LoginPage } from "../../pages/loginflow.page.cy";
-const tests = require ('../../fixtures/example.json');
 
 const loginPage = new LoginPage();
 
-describe('productcheckoutSuite ', () => {
+describe('Login Suite', () => {
     beforeEach(() => {
         cy.visit('/');
 
-        cy.fixture('example').then(function(data) {
+        cy.fixture('testData').then(function(data) {
             this.data = data;
         })        
     })
@@ -35,7 +34,7 @@ describe('productcheckoutSuite ', () => {
         loginPage.pathUrl().should("equal", "/");
     })
 
-    it('Login with the invalid username & password', function() {
+    it('Login with the invalid username & invalid password', function() {
         loginPage.enteruserName(this.data.invalidUsername);
         loginPage.enterPassword(this.data.invalidPassword);
         loginPage.clickLoginButton();

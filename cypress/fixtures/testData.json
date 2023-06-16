@@ -1,0 +1,31 @@
+{
+  "name": "Using fixtures to represent data",
+  "email": "hello@cypress.io",
+  "body": "Fixtures are a great way to mock data for responses to routes",
+
+  "validUsername": "standard_user",
+  "validPassword": "secret_sauce",
+  "invalidUsername": "standard",
+  "invalidPassword": "secret",
+
+
+  "invalidLoginCredentials": "Epic sadface: Username and password do not match any user in this service",
+
+  "itemName": "Sauce Labs Bolt T-Shirt",
+  
+  "count": "1",
+  "zerocount":"",
+
+  "sortingValue_AZ": "az",
+  "sortingValue_ZA": "za",
+  "sortingValue_lohi": "lohi",
+  "sortingValue_hilo": "hilo",
+
+  "firstName": "test",
+  "lastName": "user",
+  "postalCode": "600001",
+  "verifyProductName": "Sauce Labs Bolt T-Shirt",
+
+  "OrderAcknowledgementMessage": "Thank you for your order!",
+  "OrderInfo": "Your order has been dispatched, and will arrive just as fast as the pony can get there!"
+}

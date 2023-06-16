@@ -8,14 +8,6 @@ export class LoginPage {
         inputfieldValidation: '[data-test="error"]',
     }
 
-    navigate() {
-        cy.visit('/')
-    }
-
-    wait() {
-        cy.wait(3000)
-    }
-
     pathUrl() {
         return cy.location(this.pageElements.pathName)
     }

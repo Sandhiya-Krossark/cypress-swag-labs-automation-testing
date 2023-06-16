@@ -1,10 +1,11 @@
 {
-  "name": "Backhaul_OnlineTest",
+  "name": "cypress-swag-labs-automation-testing",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
   },
   "keywords": [],
   "author": "",
